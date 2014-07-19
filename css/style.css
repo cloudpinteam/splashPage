@@ -257,6 +257,13 @@ input.submit-button {
 
 }
 
+.row {
+	width:100%;
+}
+
+.inner-row {
+	margin-top:50px;
+}
 
 
 
