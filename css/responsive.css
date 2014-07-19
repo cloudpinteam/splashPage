@@ -1,0 +1,155 @@
+@media screen and (min-width: 480px) {
+	.box {
+		width:40%;
+		float:left;
+		clear:both;
+		position:relative;
+
+		font-size:12px;
+	}
+
+	.box2 {
+		float:right;
+		width:40%;
+		font-size:12px;
+		clear:right;
+		position:relative;
+	}
+
+	.box3 {
+		float:left;
+		width:45%;
+		font-size:12px;
+		clear:both;
+	
+		
+	}
+
+	.box4 {
+
+		float:right;
+		width:40%;
+		font-size:12px;
+		clear:right;		
+
+		
+	}
+
+	.box5 {
+		width:40%;
+		float:left;
+		clear:both;
+		position:relative;
+
+		font-size:12px;
+
+		
+	}
+
+	.box6 {
+		float:right;
+		width:40%;
+		font-size:12px;
+		clear:right;
+		position:relative;
+
+		
+	}
+
+	.pin {
+		width:20px;
+	}
+
+	.loc {
+		width:60%;
+		font-size:19px;
+	}
+
+	.para {
+		margin-top:35px;
+	}
+
+
+	.pin2 {
+		width:21px;
+	}
+
+	.loc2 {
+		width:60%;
+		font-size:19px;
+	}
+
+	.para2 {
+		margin-top:35px;
+	}
+
+
+	.pin3 {
+		width:30px;
+	}
+
+	.loc3 {
+		width:50%;
+		font-size:19px;
+	}
+
+	.para3 {
+		margin-top:35px;
+	}
+
+
+
+	.pin4 {
+		width:30px;
+	}
+
+	.loc4 {
+		width:50%;
+		font-size:19px;
+	}
+
+	.para4 {
+		margin-top:20px;
+	}
+
+
+
+	.pin5 {
+		width:30px;
+	}
+
+	.loc5 {
+		width:60%;
+		font-size:19px;
+	}
+
+	.para5 {
+		margin-top:35px;
+	}
+
+	.pin6 {
+		width:30px;
+	}
+
+	.loc6 {
+		width:50%;
+		font-size:19px;
+	}
+
+	.para6 {
+		margin-top:25px;
+	}
+
+	.row {
+		display:inline-block;
+		width:100%;
+	}
+
+}
+
+
+
+
+@media screen and (min-width: 660px) {
+
+}
