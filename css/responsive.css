@@ -71,7 +71,7 @@
 
 
 	.pin2 {
-		width:21px;
+		width:30px;
 	}
 
 	.loc2 {
@@ -143,7 +143,7 @@
 	.row {
 		display:inline-block;
 		width:100%;
-		
+
 	}
 
 }
@@ -152,5 +152,76 @@
 
 
 @media screen and (min-width: 660px) {
+
+	.box {
+		width:30%;
+		float:left;
+		position:relative;
+		font-size:12px;
+		clear:both;
+	}
+
+	.box2 {
+		float:left;
+		width:30%;
+		font-size:12px;
+		position:relative;
+		margin-left:5%;
+		clear:right;
+	}
+
+	.box3 {
+		float:left;
+		width:30%;
+		font-size:12px;
+		clear:right;
+		margin-left:5%;
+
+	}
+
+	.box4 {
+
+		float:left;
+		width:30%;
+		font-size:12px;
+		position:relative;
+		clear:both;
+	
+
+		
+	}
+
+	.box5 {
+		width:30%;
+		float:left;
+
+		position:relative;
+		font-size:12px;
+		clear:right;
+		margin-left: 5%;
+
+		
+	}
+
+	.box6 {
+		float:left;
+		width:30%;
+		font-size:12px;
+		clear:right;
+		position:relative;
+		margin-left:5%;
+
+
+		
+	}
+
+
+
+
+
+
+
+
+
 
 }
