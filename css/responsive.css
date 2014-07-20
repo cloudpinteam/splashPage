@@ -1,4 +1,9 @@
 @media screen and (min-width: 480px) {
+
+	#logo {
+		width:80px;
+	}
+
 	.box {
 		width:40%;
 		float:left;
@@ -154,6 +159,16 @@
 	#loverow {
 		visibility: visible;
 	}
+
+	.form-control {
+		font-size:21px;
+	}
+
+	#bkg {
+
+	height: 64px;
+	border-top: 2px solid #ed5747;
+	}
 }
 
 
@@ -161,11 +176,11 @@
 @media screen and (min-width: 660px) {
 
 	.container3 {
-		padding-left: 10%;
-		padding-right: 10%;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 	.box {
-		width:30%;
+		width:25%;
 		float:left;
 		position:relative;
 		font-size:12px;
@@ -174,66 +189,168 @@
 
 	.box2 {
 		float:left;
-		width:30%;
+		width:25%;
 		font-size:12px;
 		position:relative;
-		margin-left:5%;
+		margin-left:12.5%;
 		clear:right;
 	}
 
 	.box3 {
 		float:left;
-		width:30%;
+		width:25%;
 		font-size:12px;
 		clear:right;
-		margin-left:5%;
+		margin-left:12.5%;
 
 	}
 
 	.box4 {
 
 		float:left;
-		width:30%;
+		width:25%;
 		font-size:12px;
 		position:relative;
 		clear:both;
+		margin-top:30px;
 	
 
 		
 	}
 
 	.box5 {
-		width:30%;
+		width:25%;
 		float:left;
 
 		position:relative;
 		font-size:12px;
 		clear:right;
-		margin-left: 5%;
+		margin-left: 12.5%;
+		margin-top:30px;
 
 		
 	}
 
 	.box6 {
 		float:left;
-		width:30%;
+		width:25%;
 		font-size:12px;
 		clear:right;
 		position:relative;
-		margin-left:5%;
+		margin-left:12.5%;
+		margin-top:30px;
 
 
 		
 	}
 
 	#logo {
-		width:100px;
+		width:110px;
 	}
 
+	.form-control {
+		font-size:28px;
+	}
+
+	#bkg {
+
+	height: 61px;
+	border-top: 5px solid #ed5747;
+	}
 	
 
+	.pin {
+		width:30px;
+	}
+
+	.loc {
+		width:60%;
+		font-size:21px;
+	}
+
+	.para {
+		margin-top:35px;
+		font-size:21px;
+	}
 
 
+	.pin2 {
+		width:39px;
+	}
+
+	.loc2 {
+		width:60%;
+		font-size:21px;
+	}
+
+	.para2 {
+		margin-top:35px;
+		font-size:21px;
+
+	}
+
+
+	.pin3 {
+		width:40px;
+	}
+
+	.loc3 {
+		width:50%;
+		font-size:21px;
+	}
+
+	.para3 {
+		margin-top:35px;
+		font-size:21px;
+	}
+
+
+
+	.pin4 {
+		width:40px;
+	}
+
+	.loc4 {
+		width:50%;
+		font-size:21px;
+	}
+
+	.para4 {
+		margin-top:20px;
+		font-size:21px;
+	}
+
+
+
+	.pin5 {
+		width:39px;
+	}
+
+	.loc5 {
+		width:60%;
+		font-size:21px;
+	}
+
+	.para5 {
+		margin-top:35px;
+		font-size:21px;
+	}
+
+	.pin6 {
+		width:40px;
+	}
+
+	.loc6 {
+		width:50%;
+		font-size:21px;
+	}
+
+	.para6 {
+		margin-top:25px;
+		font-size:21px;
+	}
+	
+}
 
 
 
