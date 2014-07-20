@@ -279,4 +279,8 @@ input.submit-button {
 	color: #8f99a3;
 }
 
+@font-face {
+	font-family:Brandon Text;
+	src: url("font/BrandonText-Regular.otf");
+}
 
