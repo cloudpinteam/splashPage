@@ -254,7 +254,6 @@ input.submit-button {
 	float: left;
 	width: 33.3333%;
 	text-align:center;
-
 }
 
 .row {
@@ -265,5 +264,16 @@ input.submit-button {
 	margin-top:50px;
 }
 
+
+#loverow {
+	display:inline-block;
+	float:right;
+	visibility:hidden;
+	margin-top:55px;
+	font-size:15px;
+	font-family: "Brandon Text";
+	padding-right: 5%;
+	color: #8f99a3;
+}
 
 

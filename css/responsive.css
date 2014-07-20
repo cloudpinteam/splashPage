@@ -146,13 +146,24 @@
 
 	}
 
-}
+	.inner-row {
+		width:50%;
+		float:left;
+	}
 
+	#loverow {
+		visibility: visible;
+	}
+}
 
 
 
 @media screen and (min-width: 660px) {
 
+	.container3 {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
 	.box {
 		width:30%;
 		float:left;
@@ -215,7 +226,11 @@
 		
 	}
 
+	#logo {
+		width:100px;
+	}
 
+	
 
 
 
