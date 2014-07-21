@@ -74,7 +74,7 @@ a {
 
 
 input.submit-button {
-	display:inline;
+	display:inline-block;
 	outline:none;
     background:url(../img/Layer-7.png);
     background-size:cover;
@@ -281,6 +281,7 @@ input.submit-button {
 
 @font-face {
 	font-family:Brandon Text;
-	src: url("font/BrandonText-Regular.otf");
+	src: url("../font/BrandonText-Regular.otf");
 }
+
 
