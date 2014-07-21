@@ -39,14 +39,13 @@ a {
 
 #extra {
 	color: #414141;
-	font-family: "Brandon Text";
+	font-family: "Brandon Text Light";
 	font-size: 180%;
 	margin-top:-25px;
-	font-weight:lighter;
 }
 
 .emphasize{
-	font-weight:normal;
+	font-family: "Brandon Text";
 }
 
 .form-control {
@@ -106,11 +105,10 @@ input.submit-button {
 }
 
 .container2 {
-	z-index:100;
 	background-color: #f8f7f7;
 	margin-top:-27%;
 	position:absolute;
-	z-index:500;
+	z-index:1;
 	padding-top:10%;
 	border-bottom: 3px solid #f8f7f7;
 }
@@ -261,6 +259,7 @@ input.submit-button {
 
 .row {
 	width:100%;
+	padding-bottom:5%;
 }
 
 .inner-row {
@@ -284,4 +283,8 @@ input.submit-button {
 	src: url("../font/BrandonText-Regular.otf");
 }
 
+@font-face {
+	font-family:Brandon Text Light;
+	src: url("../font/BrandonText-Light.otf");
+}
 
