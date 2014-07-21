@@ -19,9 +19,9 @@ a {
 
 #signIn {
 	float:right;
-	margin-top:-20%;
+	margin-top:-24%;
 	color: #848484;
-	font-family: "Brandon Text";
+	font-family: Brandon Text;
 	font-size: 18px;
 	padding-right:5%;
 	padding-top:10%;
@@ -31,7 +31,7 @@ a {
 
 #motto {
 	color: #3f3f3d;
-	font-family: "Brandon Text";
+	font-family: Brandon Text;
 	font-size: 200%;
 	font-weight:bold;
 	margin-top: -15px;	
@@ -39,34 +39,32 @@ a {
 
 #extra {
 	color: #414141;
-	font-family: "Brandon Text Light";
+	font-family: Brandon Text Light;
 	font-size: 180%;
 	margin-top:-25px;
 }
 
 .emphasize{
-	font-family: "Brandon Text";
+	font-family: Brandon Text;
 }
 
 .form-control {
 	outline:none;
 	border: 2px solid #ed5747;
-	display:inline;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
-	border-bottom-right-radius: 0;
-	border-top-right-radius: 0;
+	display:inline-block;
+	
+
+
 	background: #fff;
-	height: 50px;
+	height: 52px;
 	padding: 6px 20px;
-	font-family: "Brandon Text";
-	font-size: 17px;
+	font-family: Brandon Text;
+	font-size: 14px;
 	color: #848484;
-	width:54%;
+	width:60%;
 
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-	border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	
 }
 
 
@@ -89,14 +87,17 @@ input.submit-button {
 
 #bkg {
 	background-color: #ed5747;
-	width: 100px;
-	height: 65px;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
-	margin-left: -4px;
-	margin-top: 0px;
+	width: 30%;
+	height: 68px;
+	
+	margin-left: -37px;
+	margin-top: 5px;
 	display:inline-block;
-	border-top: 1px solid #ed5747;
+	border-top: 0px solid #ed5747;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+
+
 }
 
 #profile {
@@ -131,22 +132,22 @@ input.submit-button {
 
 .pin3 {
 	float:left;
-	width:8%;
+	width:12%;
 }
 
 .pin4 {
 	float:left;
-	width:8%;
+	width:12%;
 }
 
 .pin5 {
 	float:left;
-	width:8%;
+	width:12%;
 }
 
 .pin6 {
 	float:left;
-	width:8%;
+	width:12%;
 }
 
 
@@ -156,8 +157,8 @@ input.submit-button {
 	margin-left:20px;
 	margin-top:-1px;
 	color: #3b4755;
-	font-family: "Brandon Text";
-	font-size: 160%;
+	font-family: Brandon Text;
+	font-size: 130%;
 }
 
 .loc2 {
@@ -165,8 +166,8 @@ input.submit-button {
 	margin-left:20px;
 	margin-top:-1px;
 	color: #3b4755;
-	font-family: "Brandon Text";
-	font-size: 160%;
+	font-family: Brandon Text;
+	font-size: 130%;
 }
 
 
@@ -175,8 +176,8 @@ input.submit-button {
 	margin-left:20px;
 	margin-top:-1px;
 	color: #3b4755;
-	font-family: "Brandon Text";
-	font-size: 160%;
+	font-family: Brandon Text;
+	font-size: 130%;
 }
 
 .loc4 {
@@ -184,8 +185,8 @@ input.submit-button {
 	margin-left:20px;
 	margin-top:-1px;
 	color: #3b4755;
-	font-family: "Brandon Text";
-	font-size: 160%;
+	font-family: Brandon Text;
+	font-size: 130%;
 }
 
 .loc5 {
@@ -193,8 +194,8 @@ input.submit-button {
 	margin-left:20px;
 	margin-top:-1px;
 	color: #3b4755;
-	font-family: "Brandon Text";
-	font-size: 160%;
+	font-family: Brandon Text;
+	font-size: 130%;
 }
 
 .loc6 {
@@ -202,49 +203,49 @@ input.submit-button {
 	margin-left:20px;
 	margin-top:-1px;
 	color: #3b4755;
-	font-family: "Brandon Text";
-	font-size: 160%;
+	font-family: Brandon Text;
+	font-size: 130%;
 }
 
 .para {
 	color: #8f99a3;
-	font-family: "Brandon Text";
+	font-family: Brandon Text;
 	font-size: 130%;
 }
 
 .para2 {
 	color: #8f99a3;
-	font-family: "Brandon Text";
+	font-family: Brandon Text;
 	font-size: 130%;
 }
 
 .para3 {
 	color: #8f99a3;
-	font-family: "Brandon Text";
+	font-family: Brandon Text;
 	font-size: 130%;
 }
 
 .para4 {
 	color: #8f99a3;
-	font-family: "Brandon Text";
+	font-family: Brandon Text;
 	font-size: 130%;
 }
 
 .para5 {
 	color: #8f99a3;
-	font-family: "Brandon Text";
+	font-family: Brandon Text;
 	font-size: 130%;
 }
 
 .para6 {
 	color: #8f99a3;
-	font-family: "Brandon Text";
+	font-family: Brandon Text;
 	font-size: 130%;
 }
 
 .bottom {
 	color: #3b4755;
-	font-family: "Brandon Text";
+	font-family: Brandon Text;
 	font-size: 20px;
 }
 
@@ -273,7 +274,7 @@ input.submit-button {
 	visibility:hidden;
 	margin-top:55px;
 	font-size:15px;
-	font-family: "Brandon Text";
+	font-family: Brandon Text;
 	padding-right: 5%;
 	color: #8f99a3;
 }
