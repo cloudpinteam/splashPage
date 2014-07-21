@@ -1,10 +1,108 @@
 #container4 {
-	position: absolute;
-	/*background-color: red;*/
+/*	position: absolute;
+	background-color: red;
 	width:100%;
-	height:100%;
+	height:100%;*/
 	text-align:center;
 	padding-right: 5%;
 	padding-left:5%;
 	padding-top:10%;
 }
+
+.container5 {
+	padding-left:15%;
+	padding-right:15%;
+}
+
+
+
+#logoSign {
+	width:14%;
+}
+
+#welcome {
+	color: #909192;
+	font-family: "Proxima Nova";
+	font-size: 150%;
+}
+
+#bfacebook {
+	color: #fff;
+	font-family: "Proxima Nova";
+	font-size: 20px;
+	background-color: #47629b;
+	outline:none;
+	text-align:center;
+	padding:20px 10%;
+	border-radius:7px;
+	border:none;
+
+}
+
+#fbpic {
+	width:17px;
+	float:left;
+}
+
+#text {
+	margin-top:5px;
+	margin-left:15px;
+	float:left;
+}
+
+#line {
+	border:1px solid #516777;
+	margin-top:-12px;
+}
+
+#message {
+	display:inline-block;
+	color: #909192;
+	font-family: "Proxima Nova";
+	font-size: 18px;
+	margin-top:30px;
+	z-index:5;
+	background-color: #fff;
+}
+
+
+.title {
+	margin-top:40px;
+	color: #465365;
+	font-family: "Proxima Nova";
+	font-size: 18px
+}
+
+.input1 {
+	outline:none;
+	text-align:center;
+	background-color: #fff;
+	background-clip:padding-box;
+	box-shadow:inset 0 2px 8px 1px rgba(0,0,0,.1);
+	border-radius:7px;
+	padding:10px 14%;
+	margin-top:-8px;
+}
+.input1:focus {
+	border:1px solid #465365;
+}
+
+
+
+
+
+
+
+
+#password {
+	float:left;
+}
+
+
+
+
+
+
+
+
+
