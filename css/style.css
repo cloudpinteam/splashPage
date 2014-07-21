@@ -52,11 +52,24 @@ a {
 	outline:none;
 	border: 2px solid #ed5747;
 	display:inline-block;
+	-moz-border-top-left-radius: 8px;
+		-webkit-border-top-left-radius: 8px;
+		border-top-left-radius: 8px;
+		-moz-border-bottom-left-radius: 8px;
+		-webkit-border-bottom-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+
+		border-bottom-right-radius: 0;
+		border-top-right-radius: 0;
+		-moz-border-bottom-right-radius: 0;
+		-moz-border-top-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+		-webkit-border-top-right-radius: 0;
 	
 
 
 	background: #fff;
-	height: 52px;
+	height: 50px;
 	padding: 6px 20px;
 	font-family: Brandon Text;
 	font-size: 14px;
@@ -88,14 +101,14 @@ input.submit-button {
 #bkg {
 	background-color: #ed5747;
 	width: 30%;
-	height: 68px;
+	height: 66px;
 	
 	margin-left: -37px;
 	margin-top: 5px;
 	display:inline-block;
 	border-top: 0px solid #ed5747;
-	border-top-right-radius: 30px;
-	border-bottom-right-radius: 30px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
 
 
 }
