@@ -11,7 +11,7 @@
 
 $(document).ready(function(){
 	$("#signIn").click(function(){
-		$(".container1, .container2").slideUp(500);
+		// $(".container1, .container2").slideUp(500);
 
 			window.location = "signIn.html";
 
