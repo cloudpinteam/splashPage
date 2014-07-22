@@ -11,8 +11,6 @@
 
 $(document).ready(function(){
 	$("#signIn").click(function(){
-		// $(".container1, .container2").slideUp(500);
-
 			window.location = "signIn.html";
 
 // var $container = $('<div id = "container4"></div>');
@@ -34,6 +32,10 @@ $(document).ready(function(){
 
     
 	});
+
+	$("#bkg").click(function(){
+		window.location = "createAccount.html";
+	});	
 
 });
 

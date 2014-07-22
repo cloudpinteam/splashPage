@@ -13,5 +13,9 @@ $(document).ready(function(){
 	$('.container4').slideDown(800);
 	$('.container5').slideDown(800);
 
+	$(".create1").click(function(){
+		window.location = "createAccount.html";
+	});	
+
 
 })
