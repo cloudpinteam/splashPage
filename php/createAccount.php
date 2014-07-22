@@ -11,9 +11,6 @@
 		if(isset($_REQUEST["username"])){
 				echo  "<p id='hello'>". 'Hello!'. $_REQUEST["username"].  "</p>";
 		}
-
-	
-
 	?>
 
 	</head>

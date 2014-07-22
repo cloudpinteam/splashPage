@@ -14,7 +14,7 @@ $(document).ready(function(){
 	$('.container5').slideDown(800);
 
 	$(".create1").click(function(){
-		window.location = "createAccount.html";
+		window.location = "php/createAccount.php";
 	});	
 
 

@@ -34,7 +34,7 @@ $(document).ready(function(){
 	});
 
 	$("#bkg").click(function(){
-		window.location = "createAccount.html";
+		window.location = "php/createAccount.php";
 	});	
 
 });
