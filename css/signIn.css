@@ -1,4 +1,4 @@
-#container4 {
+.container4 {
 /*	position: absolute;
 	background-color: red;*/
 /*	width:400px;*/
@@ -12,8 +12,8 @@
 }
 
 .container5 {
-	padding-left:15%;
-	padding-right:15%;
+	padding-left:50px;
+	padding-right:50px;
 
 }
 
@@ -79,6 +79,7 @@
 	margin-top:30px;
 	z-index:5;
 	background-color: #fff;
+	position:relative;
 }
 
 
@@ -141,7 +142,21 @@
 }
 
 
+#fakeline {
+	height:1px;
+	width:280px;
+	outline:none;
+	background-color: #fff;
+	border-bottom: none;
+	border-left: none;
+	border-right:none;
+	border-top:1.5px solid #516777;
+	margin-top:-30px;
+	position: absolute;
+margin-top: -10px;
+margin-left: -140px;
 
+}
 
 
 
