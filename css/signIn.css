@@ -153,8 +153,9 @@
 	border-top:1.5px solid #516777;
 	margin-top:-30px;
 	position: absolute;
-margin-top: -10px;
-margin-left: -140px;
+	margin-top: -10px;
+	margin-left: -140px;
+	cursor:default;
 
 }
 
