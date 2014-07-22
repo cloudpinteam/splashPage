@@ -1,18 +1,22 @@
 #container4 {
 /*	position: absolute;
-	background-color: red;
-	width:100%;
-	height:100%;*/
+	background-color: red;*/
+/*	width:400px;*/
+	height:100%;
 	text-align:center;
-	padding-right: 5%;
-	padding-left:5%;
-	padding-top:10%;
+	padding-right: 30px;
+	padding-left:30px;
+	padding-top:50px;
+	padding-bottom:8%;
+
 }
 
 .container5 {
 	padding-left:15%;
 	padding-right:15%;
+
 }
+
 
 
 
@@ -23,43 +27,55 @@
 #welcome {
 	color: #909192;
 	font-family: "Proxima Nova";
-	font-size: 150%;
+	font-size: 26px;
 }
 
 #bfacebook {
-	color: #fff;
+	color: #47629b;
 	font-family: "Proxima Nova";
 	font-size: 20px;
-	background-color: #47629b;
+	background-color: #fff;
+	background-clip:padding-box;
+	border:2px solid #47629b;
+	/*background-color: #47629b;*/
 	outline:none;
 	text-align:center;
-	padding:16px 40px;
+	padding:13px 45px;
 	border-radius:3.5px;
-	border:none;
+}
 
+#bfacebook:hover {
+	background-color:#47629b;
+	color:#fff;
 }
 
 #fbpic {
 	width:17px;
 	float:left;
+
 }
+
+
 
 #text {
 	margin-top:5px;
 	margin-left:15px;
 	float:left;
+
 }
 
 #line {
-	border:1px solid #516777;
-	margin-top:-12px;
+	display:block;
+	height:1px;
+	background:#516777;
+	margin-top:-10px;
 }
 
 #message {
 	display:inline-block;
 	color: #909192;
 	font-family: "Proxima Nova";
-	font-size: 18px;
+	font-size: 16px;
 	margin-top:30px;
 	z-index:5;
 	background-color: #fff;
@@ -78,25 +94,69 @@
 	text-align:center;
 	background-color: #fff;
 	background-clip:padding-box;
-	box-shadow:inset 0 2px 8px 1px rgba(0,0,0,.1);
-	border-radius:7px;
-	padding:10px 14%;
+	font-size:20px;
+	border-radius:3.5px;
+	padding:10px 38px;
 	margin-top:-8px;
+	border:1px solid gray;
+	font-family:"Proxima Nova";
 }
 .input1:focus {
 	border:1px solid #465365;
 }
 
+#login {
+	margin-top:30px;
+	border: 1px solid #6791d5;
+	background-color: #6197df; 
+	outline:none;
+	border-radius:4px;
+	padding:15px 120px;
+	font-family: "Proxima Nova";
+	color:#fff;
+	font-size:22px;
+}
+
+#row {
+	margin-top:20px;
+	padding-left:10%;
+	padding-right:10%;
 
 
+}
 
-
-
-
-
-#password {
+#left {
+	width:50%;
 	float:left;
 }
+
+#right {
+	width:50%;
+	float:left;
+}
+
+#create {
+	float:right;
+	color: #909192;
+font-family: "Proxima Nova";
+font-size: 18px;
+
+}
+
+#forgot {
+	float:left;
+	color: #909192;
+font-family: "Proxima Nova";
+font-size: 18px;
+}
+
+
+
+
+
+
+
+
 
 
 

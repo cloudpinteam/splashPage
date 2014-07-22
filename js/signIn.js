@@ -1,15 +1,7 @@
-$("#hello").hide(500);
-    
+function changeFacebook() {
+	document.getElementById("fbpic").src= "img/facebook.png";
+}	
 
-
-$(document).ready(function(){
-
-	$("#hello").slideUp(500);
-    
-
-
-});
-
-function maximize() {
-	width:20%;
+function normFacebook() {
+	document.getElementById("fbpic").src= "img/facebook-1.png";
 }
