@@ -8,8 +8,10 @@ function normFacebook() {
 
 
 $(document).ready(function(){
-	$('.container4').hide(1);
-	$('.container4').slideDown(850);
+	$('.container4').hide();
+	$('.container5').hide();
+	$('.container4').slideDown(800);
+	$('.container5').slideDown(800);
 
 
 })
