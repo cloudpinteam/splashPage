@@ -117,42 +117,28 @@
 	font-size:22px;
 }
 
-#row {
-	margin-top:20px;
-	padding-left:10%;
-	padding-right:10%;
 
 
+.forgot1 {
+	background:#fff;
+	outline:none;
+	border:none;
+	font-family: "Proxima Nova";
+	font-size: 18px;
 }
 
-#left {
-	width:50%;
-	float:left;
+.create1 {
+	background:#fff;
+	outline:none;
+	border:none;
+	margin-left:45px;
+	font-family: "Proxima Nova";
+	font-size: 18px;
 }
 
-#right {
-	width:50%;
-	float:left;
+.bottom {
+	margin-top:35px;
 }
-
-#create {
-	float:right;
-	color: #909192;
-font-family: "Proxima Nova";
-font-size: 18px;
-
-}
-
-#forgot {
-	float:left;
-	color: #909192;
-font-family: "Proxima Nova";
-font-size: 18px;
-}
-
-
-
-
 
 
 
