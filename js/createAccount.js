@@ -1,6 +1,22 @@
+function changeFacebook() {
+	document.getElementById("fbpic").src= "../img/facebook.png";
+}	
+
+function normFacebook() {
+	document.getElementById("fbpic").src= "../img/facebook-1.png";
+}
+
+
+
+
+
+
+
+
 var $password = $("#password");
 var $confirmPassword = $("#confirm_password");
 var $username = $("#username");
+var $email = $("#email");
 
 
 $("form span").hide();
@@ -16,12 +32,13 @@ function isPasswordValid() {
 function arePasswordsMatching() {
 	return $password.val() === $confirmPassword.val();
 }
+function isEmail() {
+	return $email.val().length > 0;
+}
+
 
 function canSubmit() {
-	return isUsernamePresent() && isPasswordValid() && arePasswordsMatching();
-
-
-
+	return isUsernamePresent() && isEmail() && isPasswordValid() && arePasswordsMatching();
 }
 
 function passwordEvent(){
@@ -58,7 +75,9 @@ $password.focus(passwordEvent).keyup(passwordEvent).keyup(confirmPasswordEvent).
 
 $confirmPassword.focus(confirmPasswordEvent).keyup(confirmPasswordEvent).keyup(enableSubmitEvent);
 
-$username.focus(usernameEvent).keyup(usernameEvent).keyup(enableSubmitEvent);
+$username.keyup(enableSubmitEvent);
+
+$email.keyup(enableSubmitEvent);
 
 
 
