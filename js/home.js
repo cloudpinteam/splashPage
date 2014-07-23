@@ -10,6 +10,12 @@
 
 
 $(document).ready(function(){
+	$('.container1').hide();
+	$('.container2').hide();
+	$('.row').hide();
+	$('.container1').fadeIn(600);
+	$('.container2').fadeIn(600);
+	$('.row').fadeIn(600);
 	$("#signIn").click(function(){
 			window.location = "php/signIn.php";
 

@@ -21,3 +21,7 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("Text");
     ev.target.appendChild(document.getElementById(data));
 }
+
+
+
+

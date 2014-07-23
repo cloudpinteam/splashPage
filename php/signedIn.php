@@ -11,28 +11,56 @@
 	   
 	   
 
-	
+<script type="text/javascript">
+function suggest(strg)
+{
+if (strg.length==0)
+{
+document.getElementById("hints").innerHTML="";
+return;
+}
+if (window.XMLHttpRequest)
+{// code for IE7+, Firefox, Chrome, Opera, Safari
+xmlhttp=new XMLHttpRequest();
+}
+else
+{// code for IE6, IE5
+xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
+xmlhttp.onreadystatechange=function()
+{
+if (xmlhttp.readyState==4 && xmlhttp.status==200)
+{
+document.getElementById("hints").innerHTML=xmlhttp.responseText;
+}
+}
+xmlhttp.open("GET","gethint.php?s="+strg,true);
+xmlhttp.send();
+}
+</script>
+</head>
 
-	</head>
 
-	<body>
-		<div class = "container">
-		<?php 
-			echo  "<span id='hello'>". 'Hello, '. $_REQUEST["username"].  "</span>";
-		?>
+<body>
 
-		<span id = "signOut">SIGN OUT</span>
+<div class = "container">
+	<span id = "signOut">Sign Out</span>
+
+	<p><b>Type your maiden name :: Suggestion will appear below input box :</b></p>
+	<form>
+	Your Maiden Name: <input type="text" onkeyup="suggest(this.value)" size="20" />
+	</form>
+	<p>Hint/Advice: <span id="hints"></span></p>
 
 
 
 
+	<p>Drag the image into the appropriate location:</p>
 
-		<p>Drag the picture into appropriate location</p>
+	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<br>
+	<img id="drag1" src="../img/Layer-6.png" draggable="true" ondragstart="drag(event)" width="15%;">
+</div>	
 
-		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-		<br>
-		<img id="drag1" src="../img/Layer-6.png" draggable="true" ondragstart="drag(event)" width="15%;">
-
-	</div>
-	</body>
+</body>
 </html>

@@ -1,8 +1,10 @@
 $(document).ready(function(){
 	$('.container4').hide();
 	$('.container5').hide();
-	$('.container4').slideDown(800);
-	$('.container5').slideDown(800);
+	$('.container4').fadeIn(800);
+	$('.container5').fadeIn(800);
+	
+	
 
 
 	
