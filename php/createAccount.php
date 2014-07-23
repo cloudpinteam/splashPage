@@ -7,15 +7,6 @@
 	    <link href="../css/normalize.css" rel="stylesheet">
 	    <link href="../css/createAccount.css" rel="stylesheet">
 	    <link href="../css/responsiveCreateAccount.css" rel="stylesheet">
-	   
-
-	<?php
-		// if(isset($_REQUEST["username"])){
-		// 		echo  "<p id='hello'>". 'Thank you '. $_REQUEST["username"].  "</p>";
-		// }
-
-	?>
-
 	</head>
 
 	<body>
@@ -33,7 +24,7 @@
 
 
 
-			<form method = "post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+			<form method = "post" action = "signedIn.php">
 				<p>
 					<label id = "username1" for="username">USERNAME</label>
 					<input id="username" name="username" type="text" placeholder = "username">
@@ -54,7 +45,8 @@
 					<span>Please confirm your password</span>
 				</p>
 				<p>
-					<input type="button" value="CREATE ACCOUNT" id="submit" onclick="window.location.href = 'signedIn.php'" >
+				<!-- 	<input type="button" value="CREATE ACCOUNT" id="submit" onclick="window.location.href = 'signedIn.php'" > -->
+				<input type="submit" value="CREATE ACCOUNT" id="submit">
 				</p>
 			</form>	
 

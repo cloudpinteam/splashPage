@@ -39,16 +39,20 @@
 			
 				<button id = "fakeline"></button>
 
-				<form method = "post" accept-charset="UTF-8">
+				<form method = "post" accept-charset="UTF-8" action = "signedIn.php">
 					<p class = "title">EMAIL</p>
-					<input class = "input1" type = "email" name = "first name" placeholder = "Your email" required>
+					<input class = "input1" type = "email" name = "username" placeholder = "Your email" required>
 					<p class = "title">PASSWORD</p>
 					<input class ="input1" type="password" name="Password" placeholder="Your password" required>
 					<br>
-					<input type = "button" id = "login" value = "SIGN IN" onclick="window.location.href = 'signedIn.php'">
+
+					<input type="submit" id = "login" value="SIGN IN" id="submit">
+
+
+
 				</form>	
 
-				<!-- <button id = "login">SIGN IN</button> -->
+
 		
 				<div class = "bottom">
 					<button class = "forgot1">forgot password?</button>

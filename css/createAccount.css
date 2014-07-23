@@ -223,7 +223,7 @@ form span:after {
   border-width: 8px;
   margin-top: -8px;*/
 }
-input[type="button"] {
+input[type="submit"] {
 /*  background: #2F558E;
   box-shadow: 0 3px 0 0 #1D3C6A;
   border-radius: 5px;
@@ -248,12 +248,4 @@ input[type="button"] {
   font-size:22px;
 
 
-}
-
-
-#hello {
-  position:absolute;
-  z-index:1000;
-  color:red;
-  
 }
