@@ -1,5 +1,24 @@
+.container {
+	text-align: center;
+	padding-left:40px;
+	padding-right:40px;
+	margin-top:50px;
+}
+
 #hello {
-  position:absolute;
+
   color:red;
   
+}
+
+#div1 {
+	width:50%;
+	height:100px;
+	padding:10px;
+	border:1px solid #aaaaaa;
+}
+
+#signOut {
+	float:right;
+	cursor:pointer;
 }
