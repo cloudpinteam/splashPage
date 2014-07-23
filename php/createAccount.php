@@ -54,7 +54,7 @@
 					<span>Please confirm your password</span>
 				</p>
 				<p>
-					<input type="submit" value="SUBMIT" id="submit">
+					<input type="submit" value="CREATE ACCOUNT" id="submit">
 				</p>
 			</form>	
 
