@@ -223,7 +223,7 @@ form span:after {
   border-width: 8px;
   margin-top: -8px;*/
 }
-input[type="submit"] {
+input[type="button"] {
 /*  background: #2F558E;
   box-shadow: 0 3px 0 0 #1D3C6A;
   border-radius: 5px;

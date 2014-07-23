@@ -10,9 +10,9 @@
 	   
 
 	<?php
-		if(isset($_REQUEST["username"])){
-				echo  "<p id='hello'>". 'Thank you '. $_REQUEST["username"].  "</p>";
-		}
+		// if(isset($_REQUEST["username"])){
+		// 		echo  "<p id='hello'>". 'Thank you '. $_REQUEST["username"].  "</p>";
+		// }
 
 	?>
 
@@ -54,7 +54,7 @@
 					<span>Please confirm your password</span>
 				</p>
 				<p>
-					<input type="submit" value="CREATE ACCOUNT" id="submit">
+					<input type="button" value="CREATE ACCOUNT" id="submit" onclick="window.location.href = 'signedIn.php'" >
 				</p>
 			</form>	
 

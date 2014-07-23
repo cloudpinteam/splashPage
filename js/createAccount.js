@@ -5,6 +5,11 @@ $(document).ready(function(){
 	$('.container5').slideDown(800);
 
 
+	$("#submit").click(function(){
+
+		// window.location = "../home.html";
+	});	
+
 
 })
 
