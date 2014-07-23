@@ -6,6 +6,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <link href="../css/normalize.css" rel="stylesheet">
 	    <link href="../css/createAccount.css" rel="stylesheet">
+	   
 
 	<?php
 		if(isset($_REQUEST["username"])){
@@ -35,8 +36,9 @@
 				<input type="submit" value="SUBMIT" id="submit">
 			</p>
 		</form>	
-
 		<script src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/createAccount.js" type="text/javascript"></script>
+
+	
 	</body>
 </html>
