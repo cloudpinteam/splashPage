@@ -1,9 +1,9 @@
 function changeFacebook() {
-	document.getElementById("fbpic").src= "img/facebook.png";
+	document.getElementById("fbpic").src= "../img/facebook.png";
 }	
 
 function normFacebook() {
-	document.getElementById("fbpic").src= "img/facebook-1.png";
+	document.getElementById("fbpic").src= "../img/facebook-1.png";
 }
 
 
@@ -14,7 +14,7 @@ $(document).ready(function(){
 	$('.container5').slideDown(800);
 
 	$(".create1").click(function(){
-		window.location = "php/createAccount.php";
+		window.location = "createAccount.php";
 	});	
 
 

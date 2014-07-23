@@ -11,7 +11,7 @@
 
 $(document).ready(function(){
 	$("#signIn").click(function(){
-			window.location = "signIn.html";
+			window.location = "php/signIn.php";
 
 // var $container = $('<div id = "container4"></div>');
 // var $form = $('<form method = "post"></form>');
