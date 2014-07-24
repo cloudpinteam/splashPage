@@ -37,6 +37,12 @@ document.getElementById("hints").innerHTML=xmlhttp.responseText;
 xmlhttp.open("GET","gethint.php?s="+strg,true);
 xmlhttp.send();
 }
+
+
+
+
+
+
 </script>
 </head>
 
@@ -52,20 +58,21 @@ xmlhttp.send();
 
 	<span id = "signOut">Sign Out</span>
 
-	<p><b>Type your maiden name :: Suggestion will appear below input box :</b></p>
+	<p><b>Type your name:</b></p>
 	<form>
-	Your Maiden Name: <input type="text" onkeyup="suggest(this.value)" size="20" />
+	Your Name: <input type="text" onkeyup="suggest(this.value)" size="20" />
 	</form>
-	<p>Hint/Advice: <span id="hints"></span></p>
+	<p><span id="hints"></span></p>
 
 
 
 
-	<p>Drag the image into the appropriate location:</p>
+<p>Drag the image into the appropriate box:</p>
 
-	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-	<br>
-	<img id="drag1" src="../img/Layer-6.png" draggable="true" ondragstart="drag(event)" width="15%;">
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="../img/Layer-6.png" draggable="true" ondragstart="drag(event)" width:"13%;">
+
 </div>	
 
 </body>

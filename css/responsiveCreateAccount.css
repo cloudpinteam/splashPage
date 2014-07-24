@@ -31,7 +31,7 @@
 
 	#fakeline {
 	  height:1px;
-	  width:200px;
+	  width:250px;
 	  outline:none;
 	  background-color: #fff;
 	  border-bottom: none;
@@ -39,8 +39,8 @@
 	  border-right:none;
 	  border-top:1.5px solid #516777;
 	  position: absolute;
-	  margin-top: 40px;
-	  margin-left: -113px;
+	  margin-top: 42px;
+	  margin-left: -139px;
 	  cursor:default;
 
 	}
