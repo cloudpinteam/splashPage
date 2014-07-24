@@ -1,3 +1,80 @@
+@media screen and (min-width: 400px){
+	#bfacebook {
+		width:280px;  
+		padding:11px 45px;
+	}
+
+	#create {
+		font-size:20px;
+	}	
+
+	#fbpic {
+		width:11px;
+	}
+
+	#text {
+		font-size: 15px;
+		margin-top:5px;
+	}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"] {
+		padding:10px 42px;
+		font-size:17px;
+	}
+
+	input[type="submit"] {
+		padding:15px 45px;
+		font-size:22px;
+	}
+
+	#fakeline {
+	  height:1px;
+	  width:200px;
+	  outline:none;
+	  background-color: #fff;
+	  border-bottom: none;
+	  border-left: none;
+	  border-right:none;
+	  border-top:1.5px solid #516777;
+	  position: absolute;
+	  margin-top: 40px;
+	  margin-left: -113px;
+	  cursor:default;
+
+	}
+
+	#username1 {
+
+	  font-size: 18px;
+
+	}
+
+	#password1 {
+
+	  font-size: 18px;
+
+	}
+
+	#confirm1 {
+
+	  font-size: 18px;
+
+	}
+
+	#email1 {
+
+	  font-size: 18px;
+
+	}
+
+
+}	
+
+
+
+
 @media screen and (min-width: 660px){
 	#logoSign {
   		width:9%;

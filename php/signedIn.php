@@ -44,6 +44,12 @@ xmlhttp.send();
 <body>
 
 <div class = "container">
+
+	<?php
+		echo  "<span id='hello'>". 'Hello, '. $_REQUEST["username"].  "</span>";
+	?>
+
+
 	<span id = "signOut">Sign Out</span>
 
 	<p><b>Type your maiden name :: Suggestion will appear below input box :</b></p>

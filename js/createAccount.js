@@ -1,16 +1,21 @@
 $(document).ready(function(){
-	$('.container4').hide();
 	$('.container5').hide();
+	$('.container4').hide();
+	
+
+
 	$('.container4').fadeIn(800);
 	$('.container5').fadeIn(800);
 	
 	
-
+	$("#signIn").click(function(){
+		window.location = "signIn.html";
+	});
 
 	
 
 
-})
+});
 
 
 
@@ -20,11 +25,11 @@ $(document).ready(function(){
 
 
 function changeFacebook() {
-	document.getElementById("fbpic").src= "../img/facebook.png";
+	document.getElementById("fbpic").src= "img/facebook.png";
 }	
 
 function normFacebook() {
-	document.getElementById("fbpic").src= "../img/facebook-1.png";
+	document.getElementById("fbpic").src= "img/facebook-1.png";
 }
 
 

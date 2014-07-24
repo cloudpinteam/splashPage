@@ -13,34 +13,27 @@ $(document).ready(function(){
 	$('.container1').hide();
 	$('.container2').hide();
 	$('.row').hide();
-	$('.container1').fadeIn(600);
-	$('.container2').fadeIn(600);
-	$('.row').fadeIn(600);
-	$("#signIn").click(function(){
-			window.location = "php/signIn.php";
-
-// var $container = $('<div id = "container4"></div>');
-// var $form = $('<form method = "post"></form>');
-// var $input = $('<input type = "text" name = "first name">');
-// var $username = $('<p id = "username">USERNAME</p>');
-// $form.append($username);
-// $form.append($input);
-// $container.append($form);
-// $("body").append($container);
+	$('.container1').fadeIn(800);
+	$('.container2').fadeIn(800);
+	$('.row').fadeIn(800);
 
 
-		// $container.slideDown();
-		// $caption.text("hello");
+
+	// $("#signIn").click(function(){
+	// 		window.location = "createAccount.html";
+		
+	// });
+
 
 		
 		
 
 
     
-	});
+
 
 	$("#bkg").click(function(){
-		window.location = "php/createAccount.php";
+		window.location = "createAccount.html";
 	});	
 
 });
