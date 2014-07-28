@@ -93,6 +93,38 @@
 	border: 1.5px solid #e3e8ef; 
 }
 
+.container2 {
+	text-align: center;
+	margin-top:40px;
+	height:240px;
+	border-bottom: 1px solid #e3e8ef;
+}
+
+.image {
+	position:relative;
+	float:left;
+	padding-left: 5%;
+}
+
+.content {
+	text-align:left;
+	float:left;
+	margin-left:50px;
+}
+
+.header {
+	font-weight: bold;
+	color: #414e5f;
+	font-family:ProximaNova;
+	font-size: 26px
+}
+
+.pin {
+	color: #a3a7ad;
+	font-family: Proxima Nova;
+	font-size: 22.5px;
+	margin-top:-15px;
+}
 
 
 
