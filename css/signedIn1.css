@@ -1,0 +1,100 @@
+#container {
+	text-align: center;
+	margin-right:5%;
+	margin-left:5%;
+	margin-top:10px;
+	height:50px;
+
+}
+
+.navbar-toggle {
+	position: relative;
+	float: left;
+	/*margin-right: 15px;*/
+	padding: 10px 10px;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #e3e5e7;
+	border-radius: 5px;
+	outline:none;
+	background-clip:padding-box;
+	clear:both;
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+	width: 25px;
+	height: 2px;
+	border-radius: 1.5px;
+	background-color: #6197dd;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+	margin-top: 7px;
+}
+
+#navbar-toggle2 {
+	position: relative;
+	float: right;
+	/*margin-right: 15px;*/
+	padding: 13px 10px;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #e3e5e7;
+	border-radius: 5px;
+	outline:none;
+	background-clip:padding-box;
+	clear:right;
+}
+
+
+#box {
+	height:10px;
+}
+
+
+#navbar-toggle2 #icon-bar-horizontal {
+	display:block;
+	width:25px;
+	height:2px;
+	border-radius: 1.5px;
+	background-color: #6197dd; 
+	margin-top:5px;
+
+}
+
+#navbar-toggle2 #icon-bar-Vertical{
+	display:block;
+	width:2px;
+	height:25px;
+	border-radius: 1.5px;
+	background-color: #6197dd; 
+	z-index:3;
+	margin-left:12px;
+	margin-top:-12.5px;
+
+}	
+
+
+#title {
+	color: #414d5f;
+	font-family:Proxima Nova;
+	font-size: 27px;
+	position:relative;
+
+}
+
+@font-face {
+  font-family:Proxima Nova;
+  src: url("../font/Proxima Nova Regular.otf");
+}
+
+#line {
+	border: 1.5px solid #e3e8ef; 
+}
+
+
+
+
+
+
