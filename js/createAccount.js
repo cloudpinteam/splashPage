@@ -9,7 +9,7 @@ $(document).ready(function(){
 	
 	
 	$("#signIn").click(function(){
-		window.location = "signIn.html";
+		window.location = "../signIn.html";
 	});
 
 	
@@ -25,11 +25,11 @@ $(document).ready(function(){
 
 
 function changeFacebook() {
-	document.getElementById("fbpic").src= "img/facebook.png";
+	document.getElementById("fbpic").src= "../img/facebook.png";
 }	
 
 function normFacebook() {
-	document.getElementById("fbpic").src= "img/facebook-1.png";
+	document.getElementById("fbpic").src= "../img/facebook-1.png";
 }
 
 
