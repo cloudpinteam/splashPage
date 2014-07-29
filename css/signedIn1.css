@@ -23,21 +23,21 @@
 
 .navbar-toggle .icon-bar {
 	display: block;
-	width: 25px;
+	width: 22px;
 	height: 2px;
 	border-radius: 1.5px;
 	background-color: #6197dd;
 }
 
 .navbar-toggle .icon-bar+.icon-bar {
-	margin-top: 7px;
+	margin-top: 5px;
 }
 
 #navbar-toggle2 {
 	position: relative;
 	float: right;
 	/*margin-right: 15px;*/
-	padding: 13px 10px;
+	padding: 10px 10px;
 	background-color: #fff;
 	background-image: none;
 	border: 1px solid #e3e5e7;
@@ -55,7 +55,7 @@
 
 #navbar-toggle2 #icon-bar-horizontal {
 	display:block;
-	width:25px;
+	width:22px;
 	height:2px;
 	border-radius: 1.5px;
 	background-color: #6197dd; 
@@ -66,12 +66,12 @@
 #navbar-toggle2 #icon-bar-Vertical{
 	display:block;
 	width:2px;
-	height:25px;
+	height:22px;
 	border-radius: 1.5px;
 	background-color: #6197dd; 
 	z-index:3;
-	margin-left:12px;
-	margin-top:-12.5px;
+	margin-left:11px;
+	margin-top:-11px;
 
 }	
 
@@ -79,8 +79,10 @@
 #title {
 	color: #414d5f;
 	font-family:Proxima Nova;
-	font-size: 27px;
+	font-size: 23px;
 	position:relative;
+	display:inline-block;
+	margin-top:7px;
 
 }
 
@@ -96,33 +98,35 @@
 .container2 {
 	text-align: center;
 	margin-top:40px;
-	height:240px;
+	height:180px;
 	border-bottom: 1px solid #e3e8ef;
 }
 
 .image {
 	position:relative;
 	float:left;
+	width:120px;
+	height:160px;
 	
 }
 
 .content {
 	text-align:left;
 	float:left;
-	margin-left:50px;
+	margin-left:0px;
 }
 
 .header {
 	font-weight: bold;
 	color: #414e5f;
 	font-family:ProximaNova;
-	font-size: 26px
+	font-size: 22px
 }
 
 .pin {
 	color: #a3a7ad;
 	font-family: Proxima Nova;
-	font-size: 22.5px;
+	font-size: 18.5px;
 	margin-top:-15px;
 }
 
